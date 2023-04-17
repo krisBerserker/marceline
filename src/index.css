@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import './styles/carousel.css';
+@import './styles/footers.css';
+@import './styles/form-validation.css';
+@import './styles/dashboard.css';
+@import './styles/features.css';
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+  #navbarCollapse{
+    margin-left: 60%;
+  }
+
+  #carousel1{
+    background: url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #carousel2{
+    background: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #carousel3{
+    background: url("./images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #f-img-1 {
+    background: url("./images/activites.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#f-img-2 {
+  background: url("./images/outils.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.signIn {
+  margin-top: 50px;
+}
